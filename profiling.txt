@@ -1,0 +1,163 @@
+
+         654 function calls (651 primitive calls) in 60.478 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   60.477   60.477 <string>:1(<module>)
+        2    0.000    0.000    0.000    0.000 codecs.py:186(__init__)
+        2    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        4    0.000    0.000    0.000    0.000 codecs.py:276(reset)
+        2    0.000    0.000    0.000    0.000 codecs.py:309(__init__)
+        2    0.000    0.000    0.000    0.000 codecs.py:319(decode)
+        4    0.000    0.000    0.000    0.000 codecs.py:327(reset)
+        4    0.000    0.000    0.000    0.000 contextlib.py:375(_create_exit_wrapper)
+        2    0.000    0.000    0.000    0.000 contextlib.py:385(__init__)
+        4    0.000    0.000    0.000    0.000 contextlib.py:415(enter_context)
+        4    0.000    0.000    0.000    0.000 contextlib.py:458(_push_cm_exit)
+        4    0.000    0.000    0.000    0.000 contextlib.py:463(_push_exit_callback)
+        2    0.000    0.000    0.000    0.000 contextlib.py:479(__enter__)
+        2    0.000    0.000    0.000    0.000 contextlib.py:482(__exit__)
+        1    0.000    0.000    0.000    0.000 distance.py:179(_ensure_same_altitude)
+        1    0.000    0.000    0.001    0.001 distance.py:240(__init__)
+        2    0.000    0.000    0.000    0.000 distance.py:389(kilometers)
+        2    0.000    0.000    0.000    0.000 distance.py:393(km)
+        1    0.000    0.000    0.001    0.001 distance.py:516(__init__)
+        1    0.000    0.000    0.000    0.000 distance.py:524(set_ellipsoid)
+        1    0.000    0.000    0.001    0.001 distance.py:537(measure)
+      2/1    0.000    0.000   60.477   60.477 foodapp.py:9(appflow)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:102(getwallet)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:106(fetchnsetuserdata)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:116(getcouponstatus)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:119(getemail)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:123(updatecouponstat)
+        1    0.000    0.000    0.001    0.001 foodappclasses.py:159(fetchall)
+        6    0.000    0.000    0.001    0.000 foodappclasses.py:16(openconnection)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:171(fetch)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:184(fetchandsetrestaurant)
+        1    0.000    0.000    0.001    0.001 foodappclasses.py:193(calculateeta)
+        6    0.000    0.000    0.000    0.000 foodappclasses.py:20(closeconnection)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:211(fetchall)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:231(__init__)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:232(<listcomp>)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:233(<listcomp>)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:234(<listcomp>)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:236(calculatebill)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:241(getamount)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:252(deliverycharges)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:256(finalpayment)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:273(__init__)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:277(fetch)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:289(fetchnsetbd)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:299(validate)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:325(__init__)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:332(timedif)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:340(getscheduledarrival)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:343(setrating)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:36(__init__)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:40(getname)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:75(auth)
+        2    0.000    0.000    0.000    0.000 foodappclasses.py:82(fetch)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:95(setaddress)
+        1    0.000    0.000    0.000    0.000 foodappclasses.py:99(getaddress)
+        1    0.000    0.000   26.714   26.714 foodappui.py:103(showmenu)
+        3    0.000    0.000    0.000    0.000 foodappui.py:118(<listcomp>)
+        1    0.000    0.000    4.007    4.007 foodappui.py:166(showbill)
+        1    0.000    0.000    8.811    8.811 foodappui.py:205(paymentmethod)
+        1    0.000    0.000    3.001    3.001 foodappui.py:231(paymentdone)
+        1    0.000    0.000    3.841    3.841 foodappui.py:240(tracking)
+        1    0.000    0.000    6.333    6.333 foodappui.py:52(loginmenu)
+        1    0.000    0.000    1.002    1.002 foodappui.py:61(exitmsg)
+        2    0.000    0.000    4.549    2.274 foodappui.py:7(mainmenu)
+        1    0.000    0.000    1.002    1.002 foodappui.py:73(welcomemsg)
+        1    0.000    0.000    1.216    1.216 foodappui.py:86(showrestaurants)
+        1    0.000    0.000    0.000    0.000 geodesic.py:1018(Inverse)
+        6    0.000    0.000    0.000    0.000 geodesic.py:121(_SinCosSeries)
+        2    0.000    0.000    0.000    0.000 geodesic.py:194(_A1m1f)
+        2    0.000    0.000    0.000    0.000 geodesic.py:204(_C1f)
+        1    0.000    0.000    0.000    0.000 geodesic.py:244(_A2m1f)
+        1    0.000    0.000    0.000    0.000 geodesic.py:254(_C2f)
+        1    0.000    0.000    0.000    0.000 geodesic.py:274(__init__)
+        1    0.000    0.000    0.000    0.000 geodesic.py:322(_A3coeff)
+        1    0.000    0.000    0.000    0.000 geodesic.py:339(_C3coeff)
+        1    0.000    0.000    0.000    0.000 geodesic.py:366(_C4coeff)
+        1    0.000    0.000    0.000    0.000 geodesic.py:399(_A3f)
+        1    0.000    0.000    0.000    0.000 geodesic.py:404(_C3f)
+        2    0.000    0.000    0.000    0.000 geodesic.py:429(_Lengths)
+        1    0.000    0.000    0.000    0.000 geodesic.py:483(_InverseStart)
+        1    0.000    0.000    0.000    0.000 geodesic.py:627(_Lambda12)
+        1    0.000    0.000    0.000    0.000 geodesic.py:704(_GenInverse)
+       69    0.000    0.000    0.000    0.000 geomath.py:112(polyval)
+        4    0.000    0.000    0.000    0.000 geomath.py:121(AngRound)
+        5    0.000    0.000    0.000    0.000 geomath.py:135(remainder)
+        5    0.000    0.000    0.000    0.000 geomath.py:146(AngNormalize)
+        4    0.000    0.000    0.000    0.000 geomath.py:153(LatFix)
+        1    0.000    0.000    0.000    0.000 geomath.py:159(AngDiff)
+        3    0.000    0.000    0.000    0.000 geomath.py:167(sincosd)
+       10    0.000    0.000    0.000    0.000 geomath.py:208(isfinite)
+        3    0.000    0.000    0.000    0.000 geomath.py:214(isnan)
+       26    0.000    0.000    0.000    0.000 geomath.py:37(sq)
+        1    0.000    0.000    0.000    0.000 geomath.py:65(atanh)
+        5    0.000    0.000    0.000    0.000 geomath.py:85(norm)
+        2    0.000    0.000    0.000    0.000 geomath.py:97(sum)
+        2    0.000    0.000    4.075    2.037 getpass.py:129(_raw_input)
+        2    0.000    0.000    4.075    2.038 getpass.py:29(unix_getpass)
+      4/2    0.000    0.000    0.000    0.000 point.py:154(__new__)
+        2    0.000    0.000    0.000    0.000 point.py:461(from_sequence)
+        2    0.000    0.000    0.000    0.000 point.py:56(_normalize_coordinates)
+        8    0.000    0.000    0.000    0.000 point.py:61(<genexpr>)
+        1    0.000    0.000    0.000    0.000 units.py:62(kilometers)
+        2    0.000    0.000    0.000    0.000 util.py:12(pairwise)
+        2    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x908780}
+        2    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+        6    0.001    0.000    0.001    0.000 {built-in method _sqlite3.connect}
+       30    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+        1    0.000    0.000   60.478   60.478 {built-in method builtins.exec}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       23   44.327    1.927   44.327    1.927 {built-in method builtins.input}
+        8    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+       22    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+       22    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       85    0.001    0.000    0.001    0.000 {built-in method builtins.print}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.round}
+        2    0.000    0.000    0.000    0.000 {built-in method math.atan2}
+        1    0.000    0.000    0.000    0.000 {built-in method math.atanh}
+        4    0.000    0.000    0.000    0.000 {built-in method math.cos}
+        1    0.000    0.000    0.000    0.000 {built-in method math.degrees}
+        8    0.000    0.000    0.000    0.000 {built-in method math.fmod}
+        2    0.000    0.000    0.000    0.000 {built-in method math.hypot}
+        6    0.000    0.000    0.000    0.000 {built-in method math.isfinite}
+        3    0.000    0.000    0.000    0.000 {built-in method math.isnan}
+        4    0.000    0.000    0.000    0.000 {built-in method math.radians}
+        4    0.000    0.000    0.000    0.000 {built-in method math.sin}
+       13    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        2    0.000    0.000    0.000    0.000 {built-in method now}
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.array}
+        2    0.000    0.000    0.000    0.000 {built-in method posix.open}
+       15    0.030    0.002    0.030    0.002 {built-in method posix.system}
+        2    0.000    0.000    0.000    0.000 {built-in method sys.exc_info}
+        2    0.000    0.000    0.000    0.000 {built-in method termios.tcgetattr}
+        4    0.000    0.000    0.000    0.000 {built-in method termios.tcsetattr}
+        6   12.039    2.007   12.039    2.007 {built-in method time.sleep}
+        4    0.000    0.000    0.000    0.000 {method '__enter__' of '_io._IOBase' objects}
+        4    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        6    0.000    0.000    0.000    0.000 {method 'close' of 'sqlite3.Connection' objects}
+        6    0.000    0.000    0.000    0.000 {method 'cursor' of 'sqlite3.Connection' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        6    0.001    0.000    0.001    0.000 {method 'execute' of 'sqlite3.Cursor' objects}
+        6    0.000    0.000    0.000    0.000 {method 'fetchall' of 'sqlite3.Cursor' objects}
+        4    0.000    0.000    0.000    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+        5    0.000    0.000    0.000    0.000 {method 'isnumeric' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 {method 'pop' of 'collections.deque' objects}
+        3    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        2    4.075    2.037    4.075    2.037 {method 'readline' of '_io.TextIOWrapper' objects}
+        2    0.000    0.000    0.000    0.000 {method 'strftime' of 'datetime.date' objects}
+        3    0.000    0.000    0.000    0.000 {method 'uniform' of 'numpy.random.mtrand.RandomState' objects}
+        1    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+
+
